@@ -10,3 +10,14 @@
 ##### プルリクテンプレートは、選択画面は出ない。クエリパラメータで template=ファイル名.mdとすることで適用できるが、実用性は謎
 
 ## 2. ドラフトプルリク
+
+## 3. ショートカットと検索
+- ctlr + K でコマンドパレット
+- sまたは/で検索バーへ
+- shift + ?でショートカット一覧
+
+## 4. github pages
+- jekyllベース、github actionsでビルド・デプロイを任せられるらしい
+- nextもデブロイ可能とのこと
+- https://user名.github.io/repository
+- うちのmacでjekyllうまく入らず、スキップ
