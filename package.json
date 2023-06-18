@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sato4sk/github-playground.git"
+    "url": "git://github.com/sato4sk/github-playground.git"
   },
   "author": "sato4",
   "license": "UNLICENSED",
