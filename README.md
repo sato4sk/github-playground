@@ -38,4 +38,12 @@
     - tsコンパイルで上記mainで指定したパスに実装されるように
 3. github actionsでパッケージpublishの設定
     - GITHUB_TOKENデフォルトトークンで、リポジトリ内の認証
+    - ハマった: githubリポジトリのsettingで、actions中のGITHUB_TOKENにwrite権限を与えないと403 ([参考](https://akihiro.dev/entries/github-pages-deploy-actions-permissions/))
 4. プッシュしてactions起動、リポジトリのpackageに表示されてること
+5. package:read以上の権限を持つPATを発行
+6. インストール先の.npmrcを設定
+7. npm i 1で指定したname
+
+## 6. CodeSpaces
+### [いわゆるバーチャルマシン](https://github.co.jp/features/codespaces)
+#### 個人は120Hr/Mまで無料(ちゃんと止めようね！)
