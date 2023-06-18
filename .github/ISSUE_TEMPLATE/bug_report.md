@@ -1,9 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+title: "[画面名] 症状"
+labels: bug
+assignees: sato4sk
 
 ---
 
