@@ -17,7 +17,25 @@
 - shift + ?でショートカット一覧
 
 ## 4. github pages
-- jekyllベース、github actionsでビルド・デプロイを任せられるらしい
-- nextもデブロイ可能とのこと
-- https://user名.github.io/repository
+### jekyllベース
+#### github actionsでビルド・デプロイを任せられるらしい
+#### nextもデブロイ可能とのこと
+### https://user名.github.io/repository
 - うちのmacでjekyllうまく入らず、スキップ
+
+## 5. github packages
+#### パッケージリポジトリのように使える(npm, java... pythonは未対応?)
+#### [バブリック無料、プライベート容量制限あり](https://docs.github.com/ja/billing/managing-billing-for-github-packages/about-billing-for-github-packages)
+    - とはいえ、ロジックコードのパッケージなら超えるようなレベルじゃない
+
+### 5-1. 手順
+#### [参照](https://engineer-first.net/create-github-packages)
+1. npm init -> package.jsonの編集
+    - nameの形式(username/リポジトリ名)
+    - mainでインストール時の参照先
+    - publishConfig: registoryでgithubのpackageレジストリ
+2. 適当な関数の実装
+    - tsコンパイルで上記mainで指定したパスに実装されるように
+3. github actionsでパッケージpublishの設定
+    - GITHUB_TOKENデフォルトトークンで、リポジトリ内の認証
+4. プッシュしてactions起動、リポジトリのpackageに表示されてること

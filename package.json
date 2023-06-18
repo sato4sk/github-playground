@@ -1,0 +1,19 @@
+{
+  "name": "@sato4sk/github-playground",
+  "version": "0.0.1",
+  "description": "for test github package",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sato4sk/github-playground.git"
+  },
+  "author": "sato4",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
